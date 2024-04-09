@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="weather">
+        <div class="degree">
+                
+             <h1 id="temperature">0</h1><p>°</p>
+                
+            <div class="location">
+                
+                <h1 id="city">City,name</h1>
+            </div>
+        </div>
+            <div class="btn">
+                <input id="cityname" type="search" placeholder="city,state">
+                <button onclick="search()" >search</button>
+            </div>
+        </div>
+        <div class="day">
+            <div class="day1" id="day">
+                <h1>temp_min</h1>
+                <p id="min">0</p>
+                
+            </div>
+            <div class="day2" id="day">
+                <h1>temp_max</h1>
+                <img src="" alt="">
+                <p id="max">0</p>
+            </div>
+            <div class="day3" id="day">
+                <h1>pressure</h1>
+                <p id="presure">0</p>
+            </div>
+            <div class="day4" id="day">
+                <h1>humidity</h1>
+                <p id="humidity">0</p>
+            </div>
+            <div class="day5" id="day">
+                <h1>feels_like</h1>
+                <p id="feelslike">0</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

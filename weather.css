@@ -1,0 +1,77 @@
+
+*{
+   padding: 0;
+   margin: 0;
+}
+.weather{
+    background-image: url('4k-minimalist-mountains-9oitratl6gd996za.jpg');
+    height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.degree{
+display: flex;
+align-items: center;
+justify-content: space;
+color: white;
+/* padding: 30px 50px; */
+/* border: 2px solid red; */
+padding-top: 30px;
+padding-left: 60px;
+}
+
+.degree p{
+    font-size: 100px;
+}
+#city{
+    margin-left: 20px;
+}
+.degree>h1{
+    font-size: 100px;
+}
+.location h1{
+    font-size: 40px;
+}
+.btn{
+    padding-left: 500px;
+    
+}
+.btn>input,button{
+    padding: 20px 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 450px;
+    bottom: 90px;
+    border: 2px solid rgb(12, 155, 74);
+
+}
+.btn>button{
+    background-color: rgb(43, 139, 158);
+    color: white;
+    border: 2px solid white;
+}
+.day{
+    display: flex;
+    /* border: 2px solid orangered; */
+    position: relative;
+    bottom: 400px;
+    padding-left: 40px;
+}
+#day{
+    /* border: 2px solid fuchsia; */
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: rgba(105, 207, 152, 0.574);
+}
+#day>h1{
+    color: white;
+}
+#day p{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    margin-left: 60px;
+}
